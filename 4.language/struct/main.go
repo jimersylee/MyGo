@@ -31,7 +31,7 @@ func main() {
 		bob.name, paul.name, bp_Older.name, bp_diff)
 
 	//我们初始化一个学生
-	mark:=Student{Human{"Mark",25,180},"Computer Science"}
+	mark:=Student{Human{"Mark",25,180},"Computer Science",222}
 	//我们访问相应的字段
 	fmt.Println("His name is ",mark.name) //访问的是Human中的name
 	fmt.Println("His name is ",mark.Human.name) //访问的是Human中的name
