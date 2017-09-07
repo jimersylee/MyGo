@@ -33,12 +33,17 @@ func (e *Employee) SayHi(){
 	fmt.Println("hi,this is Employee's SayHi()")
 }
 
+
+
+/**
+go的对象可以继承与重写
+ */
 func main(){
 	mark:=Student{Human{"Mark",25,"222-2222"},"MIT"}
 	sam:=Employee{Human{"sam",18,"1111-1111"},"Golang Inc"}
 
 	mark.SayHi() // mark是student,继承了Human中的SayHi()method
-	sam.SayHi()
+	sam.SayHi() //sam是employee,重写了Human中的SayHi()method
 
 
 }
