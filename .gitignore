@@ -14,6 +14,14 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
-.idea
+.idea/
 
 
+将删除 .exvim.go/
+将删除 3.access-db/ORM-example/
+将删除 App/conf/
+将删除 App/controllers/
+将删除 App/models/
+将删除 App/static/
+将删除 App/utils/
+将删除 App/views/
